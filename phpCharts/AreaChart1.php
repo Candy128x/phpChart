@@ -1,7 +1,7 @@
 <?php
- 
+
 $dataPoints = array(
-	array("x" => -50, "y" => 6.285), 
+	array("x" => -50, "y" => 6.285),
 	array("x" => -40, "y" => 4.656),
 	array("x" => -30, "y" => 3.530),
 	array("x" => -20, "y" => 2.731),
@@ -21,14 +21,14 @@ $dataPoints = array(
 	array("x" => 70, "y" => 0.487),
 	array("x" => 75, "y" => 0.45)
 );
- 
+
 ?>
 <!DOCTYPE HTML>
 <html>
 <head>
 <script>
 window.onload = function () {
- 
+
 var chart = new CanvasJS.Chart("chartContainer", {
 	title: {
 		text: "Viscosity of Ethanol at Different Temperatures"
@@ -50,7 +50,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	}]
 });
 chart.render();
- 
+
 }
 </script>
 </head>
